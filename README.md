@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="updated_pipeline.png" alt="Pipeline" width="420"/>
-
 # 🛰️ Urban Building Change Detection
 ### Temporospatial Attention Siamese SNUNet-ECAM Framework
 
@@ -12,7 +10,7 @@
 
 **F1 Score: 90.45% &nbsp;|&nbsp; IoU: 82.56% &nbsp;|&nbsp; OA: 99.03%**
 
-*SVKM's NMIMS University, Indore — Deep Learning Course Project*
+*SVKM's NMIMS University, Indore*
 
 </div>
 
@@ -402,7 +400,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 <div align="center">
 
 **⭐ Star this repository if you found it useful!**
-
-*Built with ❤️ at NMIMS Indore*
 
 </div>
