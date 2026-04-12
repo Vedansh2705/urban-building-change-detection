@@ -34,7 +34,7 @@ The architecture combines:
 
 ## 📊 Results
 
-### Test Set Performance (LEVIR-CD, TTA @ threshold 0.49)
+### Test Set Performance (LEVIR-CD, TTA @ threshold 0.490)
 
 | Metric | Score |
 |:---|:---:|
