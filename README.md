@@ -383,7 +383,7 @@ If you use this work, please cite the key references:
 | Name | Role | Email |
 |:---|:---|:---|
 | **Ram Singhal** | BTech AI & DS, 3rd Year | ram.singhal019@nmims.in |
-| **Vedansh Tiwari** | BTech AI & DS, 3rd Year | vedansht27@gmail.com |
+| **Vedansh Tiwari** | BTech AI & DS, 3rd Year | vedansh.tiwari029@nmims.in |
 | **Dr. Jayesh Gangrade** | Associate Professor | jayesh.gangrade@nmims.edu |
 | **Dr. Shruti Sharma** | Assistant Professor | shruti.sharma@nmims.edu |
 
