@@ -36,10 +36,10 @@ The architecture combines:
 
 | Metric | Score |
 |:---|:---:|
-| **F1-Score** | **90.45%** |
-| **IoU (Jaccard)** | **82.56%** |
-| Precision | 90.69% |
-| Recall | 90.21% |
+| **F1-Score** | **90.35%** |
+| **IoU (Jaccard)** | **82.40%** |
+| Precision | 91.70% |
+| Recall | 89.04% |
 | Overall Accuracy | 99.03% |
 
 ### State-of-the-Art Comparison on LEVIR-CD
