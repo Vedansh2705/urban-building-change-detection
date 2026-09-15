@@ -347,32 +347,345 @@ urban-building-change-detection/
 If you use this work, please cite the key references:
 
 ```bibtex
-@article{fang2022snunet,
-  title={SNUNet-CD: A densely connected siamese network for change detection of VHR images},
-  author={Fang, Sheng and Li, Kaiyu and Shao, Jinyuan and Li, Zhe},
-  journal={IEEE Geoscience and Remote Sensing Letters},
-  volume={19}, pages={1--5}, year={2022}
+@article{1Chen2021BIT,
+  author    = {Chen, Hao and Qi, Zipeng and Shi, Zhenwei},
+  title     = {Remote sensing image change detection with transformers},
+  journal   = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume    = {59},
+  number    = {9},
+  pages     = {7741--7753},
+  year      = {2021},
+  month     = {Sep.},
+  publisher = {IEEE}
 }
 
-@article{wei2024cdnext,
-  title={CDNeXt: Change detection with temporospatial interaction},
-  author={Wei, Zhenghao and Gong, Zhihao and Zhang, Haopeng and Ji, Wei},
-  journal={International Journal of Applied Earth Observation and Geoinformation},
-  volume={128}, pages={103723}, year={2024}
+@article{2Fang2022SNUNet,
+  author    = {Fang, Shengji and Li, Kai and Shao, Jinyuan and Li, Zhe},
+  title     = {SNUNet-CD: A densely connected siamese network for change detection of VHR images},
+  journal   = {IEEE Geoscience and Remote Sensing Letters},
+  volume    = {19},
+  pages     = {1--5},
+  year      = {2022},
+  publisher = {IEEE}
 }
 
-@article{chen2020levir,
-  title={A spatial-temporal attention-based method and a new dataset for remote sensing image change detection},
-  author={Chen, Hao and Shi, Zhenwei},
+@inproceedings{3Zhou2018UNetplus,
+  author    = {Zhou, Zongwei and Siddiquee, Md Mahfuzur Rahman and Tajbakhsh, Nima and Liang, Jianming},
+  title     = {UNet++: A nested U-Net architecture for medical image segmentation},
+  booktitle = {Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support},
+  pages     = {3--11},
+  year      = {2018},
+  address   = {Cham},
+  publisher = {Springer},
+  doi       = {10.1007/978-3-030-00889-5_1}
+}
+
+
+@article{4Wei2024CDNeXt,
+  author    = {Wei, Jinjiang and Sun, Kaimin and Li, Wenzhuo and Li, Wangbin and Gao, Song and Miao, Shunxia and Zhou, Qinhui and Liu, Junyi},
+  title     = {Robust change detection for remote sensing images based on temporospatial interactive attention module},
+  journal   = {International Journal of Applied Earth Observation and Geoinformation},
+  volume    = {128},
+  pages     = {103767},
+  year      = {2024},
+  publisher = {Elsevier}
+}
+
+@inproceedings{5He2016ResNet,
+  author    = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  title     = {Deep residual learning for image recognition},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {770--778},
+  year      = {2016},
+  address   = {Las Vegas, NV, USA},
+  month     = {Jun.}
+}
+
+@inproceedings{6Berman2018Lovasz,
+  author    = {Berman, Maxim and Triki, Amal Riza and Blaschko, Matthew B.},
+  title     = {The Lov{\'a}sz-Softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {4413--4421},
+  year      = {2018},
+  address   = {Salt Lake City, UT, USA},
+  month     = {Jun.}
+}
+
+@inproceedings{7Selvaraju2017GradCAM,
+  author    = {Selvaraju, Ramprasaath R. and Cogswell, Michael and Das, Abhishek and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+  title     = {Grad-CAM: Visual explanations from deep networks via gradient-based localization},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages     = {618--626},
+  year      = {2017},
+  address   = {Venice, Italy},
+  month     = {Oct.}
+}
+
+@inproceedings{8Loshchilov2019AdamW,
+  author    = {Loshchilov, Ilya and Hutter, Frank},
+  title     = {Decoupled weight decay regularization},
+  booktitle = {Proceedings of the International Conference on Learning Representations (ICLR)},
+  year      = {2019},
+  address   = {New Orleans, LA, USA},
+  month     = {May}
+}
+
+@inproceedings{9Daudt2018Siam,
+  author    = {Daudt, Rodrigo Caye and Le Saux, Bertrand and Boulch, Alexandre},
+  title     = {Fully convolutional siamese networks for change detection},
+  booktitle = {Proceedings of the IEEE International Conference on Image Processing (ICIP)},
+  pages     = {4063--4067},
+  year      = {2018},
+  address   = {Athens, Greece},
+  month     = {Oct.}
+}
+
+@article{10Chen2020STANet,
+  author    = {Chen, Hao and Shi, Zhenwei},
+  title     = {A spatial-temporal attention-based method and a new dataset for remote sensing image change detection},
+  journal   = {Remote Sensing},
+  volume    = {12},
+  number    = {10},
+  pages     = {1662},
+  year      = {2020},
+  month     = {May},
+  publisher = {MDPI}
+}
+
+@inproceedings{11Bandara2022ChangeFormer,
+  author    = {Bandara, Wele Gedara Chaminda and Patel, Vishal M.},
+  title     = {A transformer-based siamese network for change detection},
+  booktitle = {Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS)},
+  pages     = {207--210},
+  year      = {2022},
+  address   = {Kuala Lumpur, Malaysia},
+  month     = {Jul.}
+}
+
+@inproceedings{12Corley2024RealityCheck,
+  author    = {Corley, Isaac and Robinson, Caleb and Ortiz, Anthony},
+  title     = {A change detection reality check},
+  booktitle = {ICLR Workshop on Machine Learning for Remote Sensing (ML4RS)},
+  year      = {2024},
+  address   = {Vienna, Austria},
+  month     = {May}
+}
+
+@inproceedings{13Long2015FCN,
+  author    = {Long, Jonathan and Shelhamer, Evan and Darrell, Trevor},
+  title     = {Fully convolutional networks for semantic segmentation},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {3431--3440},
+  year      = {2015},
+  address   = {Boston, MA, USA},
+  month     = {Jun.}
+}
+
+@inproceedings{14Ronneberger2015UNet,
+  author    = {Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas},
+  title     = {U-Net: Convolutional networks for biomedical image segmentation},
+  booktitle = {Proceedings of the International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  pages     = {234--241},
+  year      = {2015},
+  address   = {Munich, Germany},
+  month     = {Oct.},
+  publisher = {Springer}
+}
+
+@inproceedings{15Vaswani2017Attention,
+  author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  title     = {Attention is all you need},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {30},
+  pages     = {5998--6008},
+  year      = {2017},
+  address   = {Long Beach, CA, USA},
+  month     = {Dec.}
+}
+
+@inproceedings{16Milletari2016VNet,
+  author    = {Milletari, Fausto and Navab, Nassir and Ahmadi, Seyed-Ahmad},
+  title     = {V-Net: Fully convolutional neural networks for volumetric medical image segmentation},
+  booktitle = {Proceedings of the International Conference on 3D Vision (3DV)},
+  pages     = {565--571},
+  year      = {2016},
+  address   = {Stanford, CA, USA},
+  month     = {Oct.}
+}
+
+@inproceedings{17Lin2017FocalLoss,
+  author    = {Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Doll{\'a}r, Piotr},
+  title     = {Focal loss for dense object detection},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages     = {2980--2988},
+  year      = {2017},
+  address   = {Venice, Italy},
+  month     = {Oct.}
+}
+
+@book{18Gamba2009GlobalMapping,
+  editor    = {Gamba, Paolo and Herold, Martin},
+  title     = {Global Mapping of Human Settlement: Experiences, Data Sets, and Prospects},
+  publisher = {CRC Press},
+  address   = {Boca Raton, FL, USA},
+  year      = {2009}
+}
+
+@article{19Hussain2013Review,
+  author    = {Hussain, E. and Aslam, M. and Bhutta, H. and Beg, M. A.},
+  title     = {Change detection from remotely sensed images: From pixel-based to object-based approaches},
+  journal   = {ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume    = {80},
+  pages     = {91--106},
+  year      = {2013},
+  month     = {Jun.},
+  publisher = {Elsevier}
+}
+
+@inproceedings{20Simonyan2015VGG,
+  author    = {Simonyan, Karen and Zisserman, Andrew},
+  title     = {Very deep convolutional networks for large-scale image recognition},
+  booktitle = {Proceedings of the International Conference on Learning Representations (ICLR)},
+  year      = {2015},
+  address   = {San Diego, CA, USA},
+  month     = {May}
+}
+
+@article{21Kirkpatrick2017EWC,
+  author    = {Kirkpatrick, James and Pascanu, Razvan and Rabinowitz, Neil and Veness, Joel and Desjardins, Guillaume and Rusu, Andrei A. and Milan, Kieran and Quan, John and Ramalho, Tiago and Grabska-Barwinska, Agnieszka and Demis Hassabis and Claudia Clopath and Dharshan Kumaran and Raia Hadsell},
+  title     = {Overcoming catastrophic forgetting in neural networks},
+  journal   = {Proceedings of the National Academy of Sciences (PNAS)},
+  volume    = {114},
+  number    = {13},
+  pages     = {3521--3526},
+  year      = {2017},
+  month     = {Mar.}
+}
+
+@article{22Peng2019UNetplusplus,
+  author    = {Peng, Daifeng and Zhang, Yong and Guan, Haiyan},
+  title     = {End-to-end change detection for high resolution satellite images using improved UNet++},
+  journal   = {Remote Sensing},
+  volume    = {11},
+  number    = {11},
+  pages     = {1382},
+  year      = {2019},
+  month     = {Jun.},
+  publisher = {MDPI}
+}
+
+@inproceedings{23Hu2018SENet,
+  author    = {Hu, Jie and Shen, Li and Sun, Gang},
+  title     = {Squeeze-and-excitation networks},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {7132--7141},
+  year      = {2018},
+  address   = {Salt Lake City, UT, USA},
+  month     = {Jun.}
+}
+
+@inproceedings{24Loshchilov2017SGDR,
+  author    = {Loshchilov, Ilya and Hutter, Frank},
+  title     = {SGDR: Stochastic gradient descent with warm restarts},
+  booktitle = {Proceedings of the International Conference on Learning Representations (ICLR)},
+  year      = {2017},
+  address   = {Toulon, France},
+  month     = {Apr.}
+}
+
+@misc{25Wightman2019Timm,
+  author       = {Ross Wightman},
+  title        = {PyTorch image models (timm)},
+  howpublished = {\url{https://github.com/rwightman/pytorch-image-models}},
+  year         = {2019},
+  note         = {GitHub Repository}
+}
+
+@article{26KazoomFMChangeNet,
+  author  = {Kazoom, Roie and Leifman, George and Beryozkin, Genady},
+  title   = {FM-ChangeNet: Learning Change through Pathwise Feature Transport},
+  journal = {arXiv preprint arXiv:2607.04750},
+  year    = {2026}
+}
+
+@inproceedings{27Woo2018CBAM,
+  author    = {Woo, Sanghyun and Park, Jongchan and Lee, Joon-Young and Kweon, In So},
+  title     = {CBAM: Convolutional block attention module},
+  booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
+  pages     = {3--19},
+  year      = {2018},
+  month     = {Sep.}
+}
+@article{30Rs2024Survey,
+  title={Change Detection Methods for Remote Sensing in the Last Decade: A Comprehensive Review},
+  author={Cheng, Guangliang and Huang, Yunmeng and Li, Xiangtai and Lyu, Shuchang and Xu, Zhaoyang and Zhao, Hongbo and Zhao, Qi and Xiang, Shiming},
   journal={Remote Sensing},
-  volume={12}, number={10}, pages={1662}, year={2020}
+  volume={16},
+  number={13},
+  pages={2355},
+  year={2024},
+  publisher={MDPI},
+  doi={10.3390/rs16132355},
+  url={https://www.mdpi.com/2072-4292/16/13/2355}
 }
-
-@inproceedings{he2016resnet,
-  title={Deep residual learning for image recognition},
-  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
-  booktitle={Proc. IEEE/CVF CVPR},
-  pages={770--778}, year={2016}
+@article{31Jstars2023CD,
+  title={Automatic 3D Multiple Building Change Detection Model Based on Encoder-Decoder Architecture},
+  author={Gomroki, Masoomeh and Hasanlou, Mahdi and Chanussot, Jocelyn},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume={16},
+  pages={10311--10325},
+  year={2023},
+  publisher={IEEE},
+  doi={10.1109/JSTARS.2023.3328561}
+}
+@article{28Tgrs2019Recurrent,
+  title={Change Detection in Multisource VHR Images via Deep Siamese Convolutional Multiple-Layers Recurrent Neural Network},
+  author={Chen, Hongruixuan and Wu, Chen and Du, Bo and Zhang, Liangpei and Wang, Le},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={58},
+  number={4},
+  pages={2848--2864},
+  year={2020},
+  publisher={IEEE},
+  doi={10.1109/TGRS.2019.2956756}
+}
+@article{29Egrcnn2022,
+  author  = {Bai, Beifang and Fu, Wei and Lu, Ting and Li, Shutao},
+  title   = {Edge-Guided Recurrent Convolutional Neural Network for Multitemporal Remote Sensing Image Building Change Detection},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume  = {60},
+  pages   = {1--13},
+  year    = {2022},
+  doi     = {10.1109/TGRS.2021.3106697}
+}
+@article{32Tgrs2024NonAdjacent,
+  author    = {Chen, Hongruixuan and Lan, Cuiling and Song, Jian and Broni-Bediako, Clifford and Xia, Junshi and Yokoya, Naoto},
+  title     = {ObjFormer: Learning Land-Cover Changes From Paired {OSM} Data and Optical High-Resolution Imagery via Object-Guided Transformer},
+  journal   = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume    = {62},
+  pages     = {1--18},
+  year      = {2024},
+  publisher = {IEEE},
+  doi       = {10.1109/TGRS.2024.3410389}
+}
+@article{33ChangeMamba2024,
+  author    = {Chen, Hongruixuan and Song, Jian and Han, Chengxi and Xia, Junshi and Yokoya, Naoto},
+  title     = {{ChangeMamba}: Remote Sensing Change Detection with Spatiotemporal State Space Model},
+  journal   = {IEEE Transactions on Geoscience and Remote Sensing},
+  volume    = {62},
+  pages     = {1--20},
+  year      = {2024},
+  publisher = {IEEE},
+  doi       = {10.1109/TGRS.2024.3417253}
+}
+@article{40lei2024lightweight,
+  author={Lei, Tao and Xu, Yetong and Ning, Hailong and Lv, Zhiyong and Min, Chongdan and Jin, Yaochu and Nandi, Asoke K.},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={Lightweight Structure-Aware Transformer Network for Remote Sensing Image Change Detection}, 
+  year={2024},
+  volume={21},
+  pages={1--5},
+  doi={10.1109/LGRS.2023.3323534}
 }
 ```
 
